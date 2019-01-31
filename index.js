@@ -11,7 +11,7 @@ function johnLennonFacts(facts) {
   var maxLength = facts.length
   var index = 0;
   while (facts[index] <= maxLength) {
-    facts[index] = facts[index] + '!!!';
+    facts[index].concat('!!!');
     index = index + 1;
   }
   return facts;
