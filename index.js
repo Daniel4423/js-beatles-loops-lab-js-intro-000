@@ -11,7 +11,7 @@ function johnLennonFacts(facts) {
   var index = 0;
   while (facts[index] != '!!!') {
     facts[index] = facts[index] + '!!!';
-    ++index;
+    index = index + 1;
   }
   return facts;
 }
